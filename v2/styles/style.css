@@ -25,3 +25,21 @@ input[type="range"]::-webkit-slider-thumb {
 input[type="range"]::-webkit-slider-thumb:active {
     background: #1a1a1a;
 }
+
+canvas{
+    border: solid 1px #ddd;
+}
+
+/* Inactive tab styling */
+.nav-tabs .nav-link {
+    color: #333; 
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: 500;
+}
+
+/* Optional: Hover effect for inactive tabs */
+.nav-tabs .nav-link:hover {
+    color: #000; 
+}
