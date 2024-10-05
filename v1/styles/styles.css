@@ -1,40 +1,22 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f9;
 }
 
 .container {
     text-align: center;
 }
 
-canvas {
-    background-color: #fff;
-    border: 1px solid #000;
-    margin-top: 20px;
-}
-
 .controls {
-    margin: 10px 0;
+    margin-bottom: 20px;
 }
 
-.buttons {
-    margin-top: 10px;
-}
-
-button {
-    padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
-}
-
-button:disabled {
-    background-color: #cccccc;
+canvas {
+    border: 1px solid #ccc;
+    background-color: #fff;
 }
