@@ -3,28 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Line Drawing Algorithms Visualization</title>
+    <title>2D Transformations Visualization</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="scripts/main.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <h1>Line Drawing Algorithms</h1>
+        <h1>2D Transformations Visualization</h1>
         <div class="controls">
-            <label for="gridSize">Grid Size: </label>
-            <input type="range" id="gridSize" min="100" max="500" step="50" value="300">
-            <span id="gridValue">300x300</span>
+            <select id="shapeSelector">
+                <option value="">Select a shape</option>
+                <option value="square">Square</option>
+                <option value="circle">Circle</option>
+                <option value="rectangle">Rectangle</option>
+            </select>
+            <button id="scalePlus" disabled>Scale +</button>
+            <button id="scaleMinus" disabled>Scale -</button>
+            <button id="rotatePlus" disabled>Rotate +</button>
+            <button id="rotateMinus" disabled>Rotate -</button>
+            <button id="translateXPlus" disabled>Translate X +</button>
+            <button id="translateXMinus" disabled>Translate X -</button>
+            <button id="translateYPlus" disabled>Translate Y +</button>
+            <button id="translateYMinus" disabled>Translate Y -</button>
+            <button id="reset">Reset</button>
         </div>
-        <canvas id="drawingCanvas"></canvas>
-        <div class="buttons">
-            <button id="ddaBtn" disabled>DDA Algorithm</button>
-            <button id="bresenhamBtn" disabled>Bresenham Algorithm</button>
-            <button id="antiAliasingBtn" disabled>Apply Anti-aliasing</button>
-            <button id="resetBtn" disabled>Reset</button>
-        </div>
+        <div id="canvasContainer"></div>
     </div>
-    <script src="scripts/main.js"></script>
-    <script src="scripts/dda.js"></script>
-    <script src="scripts/bresenham.js"></script>
-    <script src="scripts/antiAliasing.js"></script>
 </body>
 </html>
