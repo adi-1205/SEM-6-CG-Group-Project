@@ -1,29 +1,42 @@
 You are an experienced web developer specializing in creating interactive projects using HTML, CSS, JavaScript, Bootstrap, jQuery, and p5.js.
- Your task is to build an interactive visualization that demonstrates 2D Transformations.
- Such as Rotation , scaling , translation on a canvas
+Your task is to build an interactive visualization that demonstrates 2D Transformations.
+Such as Rotation , scaling , translation on a canvas
 
 
 Project Requirements:
 
-Drop Down that will have the following values:
-Square , rectangle , circle , and custom.
+1. Canvas.
+Create an Empty canvas.
 
-In the first There If Square is selected then make a square on the canvas.
-then have puls and minus button for all the transformations and implement transformations accourdingly.
+2.Drop Down 
+drop down will have the following values square , circle and rectangle.
+once the user select any of these values. 
+canvas will be reset and
+that particular shape will be drawn on the canvas's center
 
-but if user selects custome then let user draw any 2 D shape on the canvas.
-Once shape will be drawn on the mouse drage once mouse is clicked off don't allow the user to edit the canvas.
-after that allow the user to implement transformations the it has drawn on the same canvas.
+3.Transformations.
+This buttons will be disable till user selects the shape form the drop down.
+We will also have transformation buttons as follows 
+Scale + : whole shape will be scales by 0.1 every time the button is clicked
+Scale - : whole shape will be shrinked by 0.1 every time the button is clicked
+Rotate + : whole shape will be rotated in clockwise manner by 10 degrees
+Rotate - : whole shape will be rotated in anti-clockwise manner by 10 degrees
+Translate X + : whole shape will be move right by 10px
+Translate X - : whole shape will be move left by 10px
+Translate Y + : whole shape will be move up by 10px
+Translate Y - : whole shape will be move down by 10px
 
+4. Clear:
+ The "Reset" button should clear the canvas.
+ and reset the all the values back to default.
 
-All the transformation button must be disable initially till the user selects the shape for the drop down.
-once the shape is selected then enable the transformation
-
-But if the user selects the custom option then let user first draw on the canvas then enable the transformation
-
-Reset: The "Reset" button should clear the canvas, re-enable the grid size slider, and reset the buttons to their initial state.
 Folder Structure:
 index.html: Main HTML file.
 styles/: Folder containing CSS files for styling.
 scripts/: Folder for JavaScript and p5.js files for logic and interactivity.
-The project must deliver an intuitive and visually appealing experience, with seamless interactivity, and clearly demonstrate the mechanics of each algorithm. Ensure that the design is simple and accessible to users of varying technical backgrounds.
+
+The project must deliver an intuitive and visually appealing experience, with seamless interactivity. Ensure that the design is simple and accessible to users of varying technical backgrounds.
+
+
+
+--------------------------------AFTER FINE TUNING---------------------------------------------------------------
