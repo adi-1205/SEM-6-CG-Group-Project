@@ -40,3 +40,5 @@ The project must deliver an intuitive and visually appealing experience, with se
 
 
 --------------------------------AFTER FINE TUNING---------------------------------------------------------------
+
+same thing but for 3D
