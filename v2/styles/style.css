@@ -25,7 +25,3 @@ input[type="range"]::-webkit-slider-thumb {
 input[type="range"]::-webkit-slider-thumb:active {
     background: #1a1a1a;
 }
-
-.canvas{
-    height: 100%;
-}
